@@ -1,0 +1,2 @@
+class FlightsClimbedsController < ApplicationController
+end
