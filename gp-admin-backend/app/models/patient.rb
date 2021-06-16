@@ -4,6 +4,7 @@ class Patient < ApplicationRecord
 
     has_many :active_calories
     has_many :blood_glucoses
+    has_many :blood_pressures
     has_many :calorie_intakes
     has_many :exercise_durations
     has_many :falls

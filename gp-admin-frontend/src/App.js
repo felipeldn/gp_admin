@@ -1,6 +1,5 @@
-import logo from './7-day-gp.jpeg';
-import './style/App.css';
 import React from 'react'
+import './style/App.css';
 
 import Header from './containers/Header'
 import Main from './containers/Main'
