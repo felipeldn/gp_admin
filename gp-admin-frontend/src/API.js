@@ -1,6 +1,6 @@
 const signInURL = 'http://localhost:3000/signin'
 const signUpURL = 'http://localhost:3000/signup'
-const validaterURL = 'http://localhost:3000/validate'
+const validateURL = 'http://localhost:3000/validate'
 
 const get = (url, headers = null) => {
     return fetch(url, headers)
