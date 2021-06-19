@@ -15,7 +15,7 @@ const post = (url, data) => {
         }).then(resp => resp.json())
 }
 
-const validate = () => get(validaterURL, {headers: {Authorization: localStorage.getItem('token')}})
+const validate = () => get(validateURL, {headers: {Authorization: localStorage.getItem('token')}})
 const signIn = (user) => post(signInURL, user)
 const signUp = (user) => post(signUpURL, user) 
 
